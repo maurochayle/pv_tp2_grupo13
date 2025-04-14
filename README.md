@@ -4,5 +4,5 @@ Desarrollo trabajo práctico n°2
 1. Ponce, Franco Camilo - usuario: FrancoPonce579
 2. Chayle, Néstor Mauro - usuario: maurochayle
 3. Velazquez, Emilce Anahi - usuario: anahivelazquez1
-4.
+4. Soza, Leandro Ariel - usuario: Leandro_Soza
 5.
