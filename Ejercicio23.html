@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 23</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        .titulo{
+            text-align: center;
+            border-bottom: 5px solid gray;
+            padding-bottom: 3px;
+
+        }
+        .contenedor{
+            display: flex;
+            flex-direction: column;            
+            align-items: center;
+            height: 210px;
+            padding: 150px;
+            
+                       
+           
+        }
+        .contenedor2 {
+            display: flex;
+            margin-top: 20px;
+            width: 200px;
+            height: 50px; 
+            padding: 5px;            
+            box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="titulo"> Ejercicio 23</h1>
+    <section class="contenedor">
+        <div >
+            <input type="radio" name="lenguaje" value="JavaScript"> Javascript<br>
+            <input type="radio" name="lenguaje" value="Python"> Python<br>
+            <input type="radio" name="lenguaje" value="C++"> C++
+            <input type="radio" name="lenguaje" style="display: none;" checked> 
+        </div>
+        <div class="contenedor2">
+        <p id="mostrarValor"></p>
+        </div>
+    </section>
+
+
+    <script type="module" src="./js/Ejercicio23.js"></script>
+</body>
+</html>
