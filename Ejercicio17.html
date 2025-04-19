@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+    <script>
+        const contarLetraA = (letra)=>{
+            let contador = 0;
+            for(const letter of letra.toLowerCase()){
+                if(letter == "a"){
+                    contador+=1;
+                }
+            }
+
+            //alert("Cantidad de veces letra a: "+contador);
+            return "Palabra ingresada tiene "+contador+" letras a";
+        };
+        let letra = "Argentina";
+        alert(contarLetraA(letra));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
